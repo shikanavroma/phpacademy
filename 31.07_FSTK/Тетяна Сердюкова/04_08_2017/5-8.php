@@ -9,7 +9,7 @@ if ($age>=17 && $age<=59 ) {
     echo "Âàì åùå ğàáîòàòü è ğàáîòàòü";
 } elseif ($age > 59) {
     echo "Âàì ïîğà íà ïåíñèş";
-} elseif ($age==1-17){
+} elseif ($age>=0 && $age<17){
     echo "Âàì åùå ğàíî ğàáîòàòü";
 }else {
 	 echo "unknown age";
